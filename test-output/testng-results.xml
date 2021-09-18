@@ -1,49 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-16T17:17:38Z" name="Default suite" finished-at="2021-09-16T17:20:37Z" duration-ms="179471">
+  <suite started-at="2021-09-18T19:13:24Z" name="OrangeHRMRegressionAutomationTestSuit" finished-at="2021-09-18T19:14:58Z" duration-ms="94032">
     <groups>
     </groups>
-    <test started-at="2021-09-16T17:17:38Z" name="Default test" finished-at="2021-09-16T17:20:37Z" duration-ms="179471">
-      <class name="com.openhrm.qa.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.openhrm.qa.testcases.LoginPageTest@4d7e7435]" started-at="2021-09-16T17:17:38Z" name="setUp" finished-at="2021-09-16T17:19:41Z" duration-ms="122617" status="PASS">
+    <test started-at="2021-09-18T19:13:24Z" name="OrangeHRMTest" finished-at="2021-09-18T19:14:58Z" duration-ms="94032">
+      <class name="com.openhrm.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.openhrm.qa.testcases.HomePageTest@1eba372c]" started-at="2021-09-18T19:13:44Z" name="setUp" finished-at="2021-09-18T19:14:03Z" duration-ms="19557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginpageTitleTest()[pri:1, instance:com.openhrm.qa.testcases.LoginPageTest@4d7e7435]" started-at="2021-09-16T17:19:42Z" name="loginpageTitleTest" finished-at="2021-09-16T17:19:42Z" duration-ms="809" status="PASS">
+        <test-method signature="userValidateTest()[pri:1, instance:com.openhrm.qa.testcases.HomePageTest@1eba372c]" started-at="2021-09-18T19:14:03Z" name="userValidateTest" finished-at="2021-09-18T19:14:04Z" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userValidateTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.openhrm.qa.testcases.HomePageTest@1eba372c]" started-at="2021-09-18T19:14:04Z" name="tearDown" finished-at="2021-09-18T19:14:04Z" duration-ms="910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.openhrm.qa.testcases.HomePageTest@1eba372c]" started-at="2021-09-18T19:14:16Z" name="setUp" finished-at="2021-09-18T19:14:36Z" duration-ms="19284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="admintabClickTest()[pri:2, instance:com.openhrm.qa.testcases.HomePageTest@1eba372c]" started-at="2021-09-18T19:14:36Z" name="admintabClickTest" finished-at="2021-09-18T19:14:39Z" duration-ms="3443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- admintabClickTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.openhrm.qa.testcases.HomePageTest@1eba372c]" started-at="2021-09-18T19:14:39Z" name="tearDown" finished-at="2021-09-18T19:14:41Z" duration-ms="1316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.openhrm.qa.testcases.HomePageTest -->
+      <class name="com.openhrm.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.openhrm.qa.testcases.LoginPageTest@2f2bf0e2]" started-at="2021-09-18T19:13:24Z" name="setUp" finished-at="2021-09-18T19:13:42Z" duration-ms="17974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginpageTitleTest()[pri:1, instance:com.openhrm.qa.testcases.LoginPageTest@2f2bf0e2]" started-at="2021-09-18T19:13:42Z" name="loginpageTitleTest" finished-at="2021-09-18T19:13:42Z" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.openhrm.qa.testcases.LoginPageTest@4d7e7435]" started-at="2021-09-16T17:19:42Z" name="tearDown" finished-at="2021-09-16T17:19:43Z" duration-ms="880" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.openhrm.qa.testcases.LoginPageTest@2f2bf0e2]" started-at="2021-09-18T19:13:42Z" name="tearDown" finished-at="2021-09-18T19:13:44Z" duration-ms="1526" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.openhrm.qa.testcases.LoginPageTest@4d7e7435]" started-at="2021-09-16T17:19:43Z" name="setUp" finished-at="2021-09-16T17:20:05Z" duration-ms="21244" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.openhrm.qa.testcases.LoginPageTest@2f2bf0e2]" started-at="2021-09-18T19:14:04Z" name="setUp" finished-at="2021-09-18T19:14:15Z" duration-ms="10672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginpagelogoTest()[pri:2, instance:com.openhrm.qa.testcases.LoginPageTest@4d7e7435]" started-at="2021-09-16T17:20:05Z" name="loginpagelogoTest" finished-at="2021-09-16T17:20:06Z" duration-ms="1000" status="PASS">
+        <test-method signature="loginpagelogoTest()[pri:2, instance:com.openhrm.qa.testcases.LoginPageTest@2f2bf0e2]" started-at="2021-09-18T19:14:15Z" name="loginpagelogoTest" finished-at="2021-09-18T19:14:16Z" duration-ms="409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpagelogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.openhrm.qa.testcases.LoginPageTest@4d7e7435]" started-at="2021-09-16T17:20:06Z" name="tearDown" finished-at="2021-09-16T17:20:07Z" duration-ms="804" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.openhrm.qa.testcases.LoginPageTest@2f2bf0e2]" started-at="2021-09-18T19:14:16Z" name="tearDown" finished-at="2021-09-18T19:14:16Z" duration-ms="960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.openhrm.qa.testcases.LoginPageTest@4d7e7435]" started-at="2021-09-16T17:20:07Z" name="setUp" finished-at="2021-09-16T17:20:25Z" duration-ms="17968" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.openhrm.qa.testcases.LoginPageTest@2f2bf0e2]" started-at="2021-09-18T19:14:41Z" name="setUp" finished-at="2021-09-18T19:14:51Z" duration-ms="10008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:3, instance:com.openhrm.qa.testcases.LoginPageTest@4d7e7435]" started-at="2021-09-16T17:20:25Z" name="loginTest" finished-at="2021-09-16T17:20:36Z" duration-ms="11645" status="PASS">
+        <test-method signature="loginTest()[pri:3, instance:com.openhrm.qa.testcases.LoginPageTest@2f2bf0e2]" started-at="2021-09-18T19:14:51Z" name="loginTest" finished-at="2021-09-18T19:14:57Z" duration-ms="6222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.openhrm.qa.testcases.LoginPageTest@4d7e7435]" started-at="2021-09-16T17:20:36Z" name="tearDown" finished-at="2021-09-16T17:20:37Z" duration-ms="1059" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.openhrm.qa.testcases.LoginPageTest@2f2bf0e2]" started-at="2021-09-18T19:14:57Z" name="tearDown" finished-at="2021-09-18T19:14:58Z" duration-ms="884" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.openhrm.qa.testcases.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- OrangeHRMTest -->
+  </suite> <!-- OrangeHRMRegressionAutomationTestSuit -->
 </testng-results>
